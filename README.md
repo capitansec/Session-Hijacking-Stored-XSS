@@ -18,19 +18,19 @@ Generally, in web-based exploits, our goal is to capture a user more authorized 
 
 I will try to add java script code with \<script> tag to one of the information that will be permanently on our page. If html tags work on user inputs, that is, if html tags are not filtered, I should be able to use script tags. Let's jump in.
 
-<img src="/root/.config/Typora/typora-user-images/image-20210620073656881.png" alt="image-20210620073656881" style="zoom:67%;" />
+<img src="image-20210620073656881.png" alt="image-20210620073656881" style="zoom:67%;" />
 
 
 
 
 
-<img src="/root/.config/Typora/typora-user-images/image-20210620074121907.png" alt="image-20210620074121907" style="zoom:67%;" />
+<img src="image-20210620074121907.png" alt="image-20210620074121907" style="zoom:67%;" />
 
 
 
 The alert function opens a window and writes the data you want. If this code works, we will be able to receive cookies from every person who enters the page. Because the code we wrote will work for everyone. It will be located in the source code of our profile page.
 
-![image-20210620074441310](/root/.config/Typora/typora-user-images/image-20210620074441310.png)
+![image-20210620074441310](image-20210620074441310.png)
 
 ### Payload
 
@@ -59,13 +59,13 @@ nc -nlvp 8000
 
 Now all we have to do is wait. Using the following cookie.
 
-![image-20210620075725989](/root/.config/Typora/typora-user-images/image-20210620075725989.png)
+![image-20210620075725989](image-20210620075725989.png)
 
 
 
-![image-20210620075824891](/root/.config/Typora/typora-user-images/image-20210620075824891.png)
+![image-20210620075824891](image-20210620075824891.png)
 
-![image-20210620075840220](/root/.config/Typora/typora-user-images/image-20210620075840220.png)
+![image-20210620075840220](image-20210620075840220.png)
 
 
 
